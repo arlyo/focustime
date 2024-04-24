@@ -8,7 +8,6 @@ import { Timer } from "./src/features/Timer"
 import { FocusHistory } from "./src/features/FocusHistory"
 
 export default function App() {
-  console.log("yolo")
   const [currentSubject, setCurrentSubject] = useState(null)
   const [history, setHistory] = useState([])
   return (
